@@ -5,7 +5,7 @@ public class MemberVO {
 	private String MemberPW;
 	private String MemberName;
 	private String MemberPhone;
-	private Boolean MemberISAdmin;
+	private int MemberISAdmin;
 	private Boolean MemberISOverDue;
 	public String getMemberID() {
 		return MemberID;
@@ -25,10 +25,10 @@ public class MemberVO {
 	public void setMemberName(String memberName) {
 		MemberName = memberName;
 	}
-	public Boolean getMemberISAdmin() {
+	public int getMemberISAdmin() {
 		return MemberISAdmin;
 	}
-	public void setMemberISAdmin(Boolean memberISAdmin) {
+	public void setMemberISAdmin(int memberISAdmin) {
 		MemberISAdmin = memberISAdmin;
 	}
 	public Boolean getMemberISOverDue() {
